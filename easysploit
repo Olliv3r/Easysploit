@@ -31,7 +31,7 @@ do
 (10) Contact with me - My accounts
 '
 
-pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start
+pg_ctl -D /data/data/com.termux/files/usr/var/lib/postgresql -l logfile start &> /dev/null
 exe='1'
 apk='2'
 py='3'
